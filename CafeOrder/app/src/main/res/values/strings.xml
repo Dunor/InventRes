@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cafe Order</string>
+    <string name="logo_description">Логотип кафе</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="hint_name">Введите ваше имя:</string>
+    <string name="hint_password">Введите ваш пароль:</string>
+    <string name="button_create_order">СОЗДАТЬ ЗАКАЗ</string>
+</resources>
