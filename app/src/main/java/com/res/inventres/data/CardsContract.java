@@ -14,14 +14,14 @@ public class CardsContract {
         public static final String TYPE_TEXT = "TEXT";
         public static final String TYPE_INTEGER = "INTEGER";
 
-        public static final String CREATE_COMMAND = "CREATE TABLE IF NOT EXIST" + TABLE_NAME +
+        public static final String CREATE_COMMAND = "CREATE TABLE IF NOT EXISTS " + TABLE_NAME +
                 "(" + _ID + " " + TYPE_INTEGER + " PRIMARY KEY AUTOINCREMENT, " +
                 COLUMN_STICKER + " " + TYPE_TEXT + ", " +
                 COLUMN_N_N + " " + TYPE_TEXT + ", " +
                 COLUMN_DEV_TYPE + " " + TYPE_TEXT + ", " +
                 COLUMN_DEV_MODEL + " " + TYPE_TEXT + ", " +
-                COLUMN_FIO + " " + TYPE_TEXT + ")";
+                COLUMN_FIO + " " + TYPE_TEXT + ");";
 
-        public static final String DROP_COMMAND = "DROP TABLE IF EXIST " + TABLE_NAME;
+        public static final String DROP_COMMAND = "DROP TABLE IF EXISTS " + TABLE_NAME;
     }
 }
